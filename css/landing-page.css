@@ -35,24 +35,42 @@ h1,h3{
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 10px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 10px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/logo.png) no-repeat center center;
+    background: url(../img/header6.png) no-repeat center center;
     background-size: cover;
+max-height:95%;
+max-width:100%;
+	
 }
 
+.linktokamp{
+	position: relative;
+	width:20%;
+	height:90%;
+	background-color:#5BC0DE;
+	opacity:0.9;
+	border-radius: 15px 15px 15px 15px;
+margin-top:10%;
+margin-bottom:20%;
+}
+.linktokamp p{
+	color:white;
+    font-size: 16px;}
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 1%;
+    padding-bottom: 99%;
+	margin-top: 10%;
 }
 
 .intro-message > h1 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
     font-size: 5em;
+	
 }
 
 .intro-divider {
@@ -63,11 +81,12 @@ h1,h3{
 
 .intro-message > h3 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	
 }
 
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 15%;
+        padding-bottom: 50%;
     }
 
     .intro-message > h1 {
@@ -91,7 +110,7 @@ h1,h3{
 
 .network-name {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
 }
