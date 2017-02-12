@@ -25,7 +25,7 @@ h1,h3{
     color: white;
 }
 
-.topnav {
+.topnav {netwo
     font-size: 14px; 
 }
 
@@ -47,18 +47,50 @@ max-width:100%;
 }
 
 .linktokamp{
-	position: relative;
-	width:20%;
-	height:90%;
-	background-color:#5BC0DE;
-	opacity:0.9;
-	border-radius: 15px 15px 15px 15px;
-margin-top:10%;
-margin-bottom:20%;
-}
+	 display: block;
+	
+		border-radius:15px 15px 15px 15px;
+		background-color:#333333;
+		opacity:0.9;
+		width:150px;
+		margin-left:20px;
+		}
+.btn basic{
+	
+.linktokamp:hover{background-color:#333333;opacity:1;}
+		
+.btn basic:hover{background-color:#333333;opacity:1;}
+ .verticalline {
+  border-left: 1px solid white;}
+  
 .linktokamp p{
 	color:white;
-    font-size: 16px;}
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+	padding:15px;
+	
+	
+}
+
+	
+.skikamp{
+	width:300px;
+	margin-top:50px;
+	display:block;
+	margin-top:60px;
+	margin-left:20px;
+	padding-bottom:10px;
+	}
+.skikamp p{
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight:700;
+	font-size:24px;
+	text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+	padding:0px;
+	margin:0px;
+	text-align:left;}
 .intro-message {
     position: relative;
     padding-top: 1%;
