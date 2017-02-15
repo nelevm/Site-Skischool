@@ -49,13 +49,17 @@ max-width:100%;
 .linktokamp{
 	 display: block;
 	
-		border-radius:15px 15px 15px 15px;
+		border-radius:10px 10px 10px 10px;
 		background-color:#333333;
 		opacity:0.9;
 		width:150px;
 		margin-left:20px;
 		}
 
+.img-responsive{
+	min-height:5OOpx;
+	min-width:500px;
+	}
 	
 .linktokamp:hover{background-color:#333333;opacity:1;}
 		
