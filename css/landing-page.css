@@ -41,10 +41,12 @@ h1,h3{
     color: #f8f8f8;
     background: url(../img/header6.png) no-repeat center center;
     background-size: cover;
-max-height:95%;
+max-height:90%;
 max-width:100%;
 	
 }
+
+
 
 .linktokamp{
 	 display: block;
@@ -56,10 +58,7 @@ max-width:100%;
 		margin-left:20px;
 		}
 
-.img-responsive{
-	min-height:5OOpx;
-	min-width:500px;
-	}
+
 	
 .linktokamp:hover{background-color:#333333;opacity:1;}
 		
@@ -96,9 +95,9 @@ max-width:100%;
 	margin:0px;
 	text-align:left;}
 .intro-message {
-    position: relative;
+
     padding-top: 1%;
-    padding-bottom: 99%;
+    
 	margin-top: 10%;
 }
 
