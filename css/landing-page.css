@@ -10,6 +10,9 @@ html {
     height: 100%;
 }
 
+.col-lg-offset-2{
+margin-top:30px;}
+
 body,
 h1,
 h2,
@@ -25,7 +28,9 @@ h1,h3{
     color: white;
 }
 
-.topnav {netwo
+
+	
+.topnav {
     font-size: 14px; 
 }
 
@@ -39,7 +44,7 @@ h1,h3{
     padding-bottom: 10px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/header6.png) no-repeat center center;
+    background: url(../img/DSC03356-3.JPG) no-repeat center center;
     background-size: cover;
 max-height:90%;
 max-width:100%;
@@ -52,7 +57,7 @@ max-width:100%;
 	 display: block;
 	
 		border-radius:10px 10px 10px 10px;
-		background-color:#333333;
+		background-color:#E25C34;
 		opacity:0.9;
 		width:150px;
 		margin-left:20px;
@@ -60,11 +65,12 @@ max-width:100%;
 
 
 	
-.linktokamp:hover{background-color:#333333;opacity:1;}
+.linktokamp:hover{background-color:white;opacity:1;}
+.linktokamp p:hover{color:#333333;}
 		
-.btn basic:hover{background-color:#333333;opacity:1;}
+.btn basic:hover{background-color:white;opacity:1;}
  .verticalline {
-  border-left: 1px solid white;}
+  border-left: 1px solid white}
   
 .linktokamp p{
 	color:white;
@@ -76,6 +82,8 @@ max-width:100%;
 	
 	
 }
+
+
 
 	
 .skikamp{
@@ -119,9 +127,22 @@ max-width:100%;
 	
 }
 
+.fa fa-facebook fa-fw{
+	background-color:#18C0D3;}
+.btn{
+	background-color:#E25C34;
+	color:white;
+	border-style:none;
+	border-radius:10px 10px 10px 10px;
+	width:150px;
+		margin-left:20px;
+		padding-bottom:15px;
+		padding-top:15px;}
+
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 50%;
+        padding-bottom: 20%;
+		padding-top:20%;
     }
 
     .intro-message > h1 {
@@ -141,6 +162,13 @@ max-width:100%;
     .intro-divider {
         width: 100%;
     }
+	.skikamp{
+	width:300px;
+	display:block;
+	margin-top:140px;
+	margin-left:20px;
+	padding-bottom:10px;
+	}
 }
 
 .network-name {
@@ -148,6 +176,7 @@ max-width:100%;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 2px;
+	
 }
 
 .content-section-a {
@@ -193,11 +222,19 @@ max-width:100%;
     margin-top: 0;
 }
 
+.img responsive{
+	border: 2px solid #D65524}
+
+
 @media(max-width:1199px) {
     ul.banner-social-buttons {
         float: left;
         margin-top: 15px;
     }
+.img responsive{
+	width:600px;
+	border: 10px solid #FD6E0B;
+	}
 }
 
 @media(max-width:767px) {
@@ -216,6 +253,10 @@ max-width:100%;
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+	
+	.img responsive{
+		width: 300px;
+		border: 10px solid #FD6E0B;}
 }
 
 footer {
@@ -226,3 +267,4 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
